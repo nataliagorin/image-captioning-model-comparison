@@ -1,20 +1,20 @@
-# 🖼️ Image Captioning Model Comparison
+# Image Captioning Model Comparison
 
 > AI-powered image captioning app comparing NIC (ViT+GPT-2), BLIP, and a custom ResNet152+LSTM+Attention model. Built with Flask & React, includes text-to-speech for generated captions.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🤖 **Three captioning models** — choose between NIC, BLIP, or a custom-trained model
-- 🔊 **Text-to-Speech** — captions are automatically converted to audio using gTTS
-- ⚡ **Model caching** — models are loaded once and reused to minimize latency
-- 🎯 **Beam search** — custom model uses beam search decoding for higher quality captions
-- 🌐 **Modern web interface** — React + Vite frontend with a clean UI
+- **Three captioning models** — choose between NIC, BLIP, or a custom-trained model
+- **Text-to-Speech** — captions are automatically converted to audio using gTTS
+- **Model caching** — models are loaded once and reused to minimize latency
+- **Beam search** — custom model uses beam search decoding for higher quality captions
+- **Modern web interface** — React + Vite frontend with a clean UI
 
 ---
 
-## 🧠 Models
+## Models
 
 | Model | Architecture | Pre-trained on | HuggingFace ID |
 |-------|-------------|----------------|----------------|
@@ -32,7 +32,7 @@ The custom model was trained from scratch on the [Flickr30k dataset](https://www
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 image-caption/
@@ -57,7 +57,7 @@ image-caption/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -104,7 +104,7 @@ The app will be available at `http://localhost:5173`.
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 ### `POST /caption`
 
@@ -128,7 +128,7 @@ Generates a caption and audio for an uploaded image.
 
 ---
 
-## 📓 Notebooks
+## Notebooks
 
 | Notebook | Description |
 |----------|-------------|
@@ -137,7 +137,7 @@ Generates a caption and audio for an uploaded image.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Backend**
 - [Flask](https://flask.palletsprojects.com/) — REST API
@@ -151,6 +151,6 @@ Generates a caption and audio for an uploaded image.
 
 ---
 
-## 📄 License
+## License
 
 This project was developed as part of an *Introduction to Big Data* university course.
